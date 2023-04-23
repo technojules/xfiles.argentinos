@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>X FILES SECRETOS ARGENTOS</title>
+    <style>
+      body {
+        background-color: black;
+        color: green;
+      }
+      h1 {
+        animation: sparkle 2s infinite;
+      }
+      @keyframes sparkle {
+        0% {
+          color: darkred;
+          text-shadow: none;
+        }
+        50% {
+          color: orange;
+          text-shadow: 0 0 10px yellow, 0 0 20px orange, 0 0 30px red;
+        }
+        100% {
+          color: darkred;
+          text-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>X FILES SECRETOS ARGENTOS SUPER SECRETOS</h1>
+    <p>Crea tu seudonimo secreto para acceder a los x files argentinos.</p>
+    <form action="archivos.html" method="post" target="_blank">
+      <label for="seudonimo-secreto">seudonimo secreto:</label>
+      <input type="text" id="seudonimo-secreto" name="seudonimo_secreto" required>
+      <br><br>
+      <input type="submit" value="Acceder">
+    </form>
+  </body>
+</html>

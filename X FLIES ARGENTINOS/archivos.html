@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Archivos secretos X-ARG</title>
+    <style>
+      body {
+        background-color: black;
+        color: green;
+      }
+      h1 {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+      }
+      h1:first-child {
+        color: yellow;
+        font-size: 40px;
+        text-align: center;
+        animation-name: move-title;
+      }
+      h1:not(:first-child) {
+        color: blue;
+        font-size: 20px;
+      }
+      .btn {
+        display: block;
+        margin-top: 2em;
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        border: none;
+        border-radius: 30px;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0 0 5px 1px yellow;
+        animation-name: blink;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        font-family: "Trajan Pro", Times, serif;
+        letter-spacing: 2px;
+      }
+      .btn:hover {
+        background-color: #7f0000;
+      }
+      .btn:active {
+        background-color: #cc0000;
+        box-shadow: 0 0 10px 2px yellow;
+      }
+      @keyframes blink {
+        0% { box-shadow: 0 0 5px 1px yellow; }
+        50% { box-shadow: 0 0 20px 5px yellow; }
+        100% { box-shadow: 0 0 5px 1px yellow; }
+      }
+      @keyframes move-title {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(5deg); }
+        50% { transform: rotate(0deg); }
+        75% { transform: rotate(-5deg); }
+        100% { transform: rotate(0deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ACCEDISTE A LOS ARCHIVOS SECRETOS</h1>
+    <h1><a href="https://i.postimg.cc/y8zWSftF/001.jpg" target="_blank">ARCHIVO SECRETO X-ARG-001</a></h1>
+    <h1><a href="https://i.postimg.cc/1XVkPCnZ/002.jpg" target="_blank">ARCHIVO SECRETO X-ARG-002</a></h1>
+    <h1><a href="https://i.postimg.cc/dQgjFtMb/003.jpg" target="_blank">ARCHIVO SECRETO X-ARG-003</a></h1>
+    <h1><a href="https://i.postimg.cc/CLyktPkY/004.jpg" target="_blank">ARCHIVO SECRETO X-ARG-004</a></h1>
+    <h1><a href="https://i.postimg.cc/QNcHBXKG/005.jpg" target="_blank">ARCHIVO SECRETO X-ARG-005</a></h1>
+    <div>
+      <button class="btn" id="
+
+
